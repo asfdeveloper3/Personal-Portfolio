@@ -1,10 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -33,12 +29,10 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: var(--dark-02, #474747);
-    font-family: Open Sans;
+    color:  #474747;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+
 }
 
 .primary-btn {
@@ -47,7 +41,7 @@ nav a {
     flex-shrink: 0;
     border-radius: 5px;
     background: #FD6E0A;
-    color: var(--white-color, #FFF);
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     box-shadow: 5px 5px 5px rgb(179, 120, 72);
@@ -160,8 +154,17 @@ main section {
 
 /**Resume Section**/
 .resume-column-title {
-    color:#474747;
+    color:  #474747;
     font-size: 30px;
     font-weight: 700;
-
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-section{
+    text-align: center;
 }
